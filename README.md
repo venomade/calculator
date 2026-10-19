@@ -6,7 +6,7 @@ It will run on `Python 3` via the `calculator.py` script.
 Add, subtract, multiply and divide two numbers; display the result.
 
 ## How to Run It
-From Week 3: `python3 calculator.py`
+Run: `python3 calculator.py`
 
 ## Usage
 - First enter a number
