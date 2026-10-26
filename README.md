@@ -6,10 +6,11 @@ It will run on `Python 3` via the `calculator.py` script.
 Add, subtract, multiply and divide two numbers; display the result.
 
 ## How to Run It
-Run: `python3 calculator.py`
+Run: `./run.sh`
 
 ## Usage
 - First enter a number
 - Then enter an operator (`+`,`-`,`*` or `/`)
 - Lastly enter a second number
 - Read the result, printed as `Result: ` followed by the answer.
+- When done stop with `Ctrl+c`
