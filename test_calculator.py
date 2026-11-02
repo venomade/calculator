@@ -1,3 +1,4 @@
+import pytest
 from calculator import add, subtract, multiply, divide
 
 def test_add():
@@ -19,3 +20,12 @@ def test_divide_uneven():
     result = divide(a, b)
     # Assert
     assert result == 2.5
+
+@pytest.mark.parametrize("a, b, expected", [
+    (2, 3, 5), (-2, -3, -5), (0, 0, 0),
+])
+def test_add_many(a, b, expected):
+    assert add(a, b) == expected
+
+def test_divide_by_zero():
+    assert divide (5, 0) == float("inf")
